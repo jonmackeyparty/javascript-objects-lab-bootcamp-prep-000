@@ -9,7 +9,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return object;
 }
 
-destructivelyUpdateObjectWithKeyAndValue
+destructivelyUpdateObjectWithKeyAndValue(recipes, prop2, 2);
 
 function deleteFromObjectByKey(object, key){
   var newObj = Object.assign ({}, recipes);
